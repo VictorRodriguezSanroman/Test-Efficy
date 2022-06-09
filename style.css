@@ -1,0 +1,13 @@
+/* Right align the success value */
+body > form > input[type=number]{
+    text-align: right;
+}
+/* Display the Submit button in it's own box. Add some spacing around the element. */
+body > form > button{
+    margin: 10px 0px 10px 0px;
+   display: block !important;
+}
+/* Set a mono-space font on the output <div> so we have a better view on the generated JSON output. */
+body > div.output{
+    font-family: monospace;
+}
